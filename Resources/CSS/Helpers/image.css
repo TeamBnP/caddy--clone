@@ -1,0 +1,23 @@
+/* Image Resizing */
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+.resized {
+  max-width: 120px;
+}
+.resized-md {
+  max-width: 80px;
+}
+
+.resized-sm {
+  max-width: 20px;
+}
+
+.resized-x-lg {
+  max-width: 600px;
+}
+.resized-x-md {
+  max-width: 400px;
+}

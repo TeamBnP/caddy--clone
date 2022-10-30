@@ -1,0 +1,14 @@
+/* Containers */
+.container-fluid {
+  padding-left: 15px;
+  width: 100%;
+  padding-right: 15px;
+}
+
+.container {
+  margin-left: 13%;
+  margin-right: 13%;
+}
+.no-gutters {
+  padding: 0 !important;
+}

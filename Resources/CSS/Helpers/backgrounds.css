@@ -1,0 +1,12 @@
+/* Backgrounds */
+.header-background {
+  background: url(/Resources/Assets/bg-teal.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.first-section-background {
+  background-color: #f5f8f9;
+}
+.third-section-background {
+  background-color: #f5f8f9;
+}

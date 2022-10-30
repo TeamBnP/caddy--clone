@@ -1,0 +1,11 @@
+.text-center {
+  text-align: center !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-info {
+  color: #0694f1;
+}

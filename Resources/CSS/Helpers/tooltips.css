@@ -1,0 +1,25 @@
+.tooltip {
+  display: inline-block;
+  position: relative;
+}
+
+.tooltip .tooltip-text {
+  position: absolute;
+  top: 34%;
+  left: 100%;
+  padding: 0.5rem 0.8rem 0.4rem 0.5rem;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+}
+
+.tooltip .tooltip-text::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #dcdcdc transparent transparent;
+}
