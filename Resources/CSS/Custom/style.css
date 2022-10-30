@@ -1,0 +1,145 @@
+@import url(/Resources/CSS/font.css);
+body {
+  padding: 0;
+  margin: 0;
+  font-family: montserrat-medium;
+  font-size: 15px;
+}
+/* Custom margin definations */
+
+/* Margin top */
+.mt-lg {
+  margin-top: 5rem;
+}
+.mt-sm {
+  margin-top: 0.15rem;
+}
+
+.mt-x-md {
+  margin-top: 7rem;
+}
+.mt-md {
+  margin-top: 2.5rem;
+}
+
+/* Margin bottom */
+.mb-md {
+  margin-bottom: 5rem;
+}
+.mb-x-md {
+  margin-bottom: 7rem;
+}
+
+/* Margin left */
+.ml-md {
+  margin-left: 5.5rem;
+}
+.ml-x-md {
+  margin-left: 11rem;
+}
+
+/* Margin right */
+.mr-md {
+  margin-right: 2rem;
+}
+/* Logo */
+.logo {
+  padding: 2rem 2rem 2rem 5rem;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+}
+
+.nav-badge {
+  background-color: #ffe300;
+  padding: 0rem 0.4rem 0.1rem 0.4rem;
+  border-radius: 20px;
+  font-size: 12px;
+  margin: 0.3rem 0rem 0rem 0.4rem;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+/* Fonts */
+
+.font-sm {
+  font-size: 13px;
+}
+
+.font-lg {
+  font-size: 4.3vw !important;
+  font-family: montserrat-semi-bold;
+}
+
+.font-md-bold {
+  font-family: montserrat-bold !important;
+  font-size: 18px !important;
+}
+.font-md-bold-inter {
+  font-family: inter-sans-serif-bold;
+  font-size: 18px;
+}
+
+.font-sm-bold {
+  font-family: montserrat-bold !important;
+  font-size: 15px !important;
+}
+.font-md-regular {
+  font-family: montserrat-regular;
+  font-size: 52px;
+}
+
+.font-lg-inter {
+  font-family: inter-sans-serif;
+  font-size: 48px;
+}
+.font-md-inter {
+  font-family: inter-sans-serif;
+  font-size: 20px;
+}
+
+/* Search Button */
+.search-button {
+  border-radius: 100px;
+  border: 1px solid#ebedf0;
+  background-color: #e3e5eb;
+  padding: 0.1em 0.4em 0.1em 0.4em;
+}
+.search-button-text {
+  margin-bottom: 0.4rem;
+  font-size: 18px;
+  color: #919191;
+}
+.search-button-kbd-icon {
+  border: 1px solid #e5e5e5;
+  border-bottom: 3px;
+  padding: 0.2em 0.2em 0.2em 0.2em;
+  background-color: #e5e5e5;
+  color: #919191;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px #919191;
+}
+/* Paragraphs */
+.header-paragraph {
+  font-size: 28px;
+}
+.section-paragraphs p {
+  line-height: 1.9rem;
+  font-size: 20px;
+  font-family: inter-sans-serif;
+}
+.second-section-paragraph-bold {
+  line-height: 1.5rem;
+}
+/* Width */
+.w-md {
+  width: 72%;
+}
+
+/* Miscellaneous */
+.kbd-ltr-k {
+  padding: 0.2em 0.4em 0.2em 0.4em;
+}

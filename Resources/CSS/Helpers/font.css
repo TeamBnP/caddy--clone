@@ -1,0 +1,27 @@
+/* Root */
+@font-face {
+  font-family: montserrat-medium;
+  src: url(/Resources/Fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: montserrat-semi-bold;
+  src: url(/Resources/Fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: montserrat-bold;
+  src: url(/Resources/Fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: montserrat-regular;
+  src: url(/Resources/Fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: inter-sans-serif;
+  src: url(/Resources/Fonts/Inter/static/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: inter-sans-serif-bold;
+  src: url(/Resources/Fonts/Inter/static/Inter-Bold.ttf);
+}
