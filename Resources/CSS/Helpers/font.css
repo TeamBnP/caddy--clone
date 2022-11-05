@@ -25,3 +25,11 @@
   font-family: inter-sans-serif-bold;
   src: url(/Resources/Fonts/Inter/static/Inter-Bold.ttf);
 }
+@font-face {
+  font-family: pt-mono;
+  src: url(/Resources/Fonts/PTMono-Regular.ttf);
+}
+@font-face {
+  font-family: inter-sans-serif-light;
+  src: url(/Resources/Fonts/Inter/static/Inter-Light.ttf);
+}

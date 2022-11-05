@@ -11,6 +11,15 @@ body {
 .mt-lg {
   margin-top: 5rem;
 }
+
+.mt-md-lg {
+  margin-top: 4.5rem;
+}
+
+.mt-x-lg {
+  margin-top: 10rem;
+}
+
 .mt-sm {
   margin-top: 0.15rem;
 }
@@ -29,6 +38,9 @@ body {
 .mb-x-md {
   margin-bottom: 7rem;
 }
+.mb-lg {
+  margin-bottom: 9rem;
+}
 
 /* Margin left */
 .ml-md {
@@ -37,11 +49,35 @@ body {
 .ml-x-md {
   margin-left: 11rem;
 }
+.ml-sm {
+  margin-left: 2.5rem;
+}
+.ml-6 {
+  margin-left: 1.55rem;
+}
+.ml-7 {
+  margin-left: 2.95rem;
+}
+.ml-8 {
+  margin-left: 4.5rem;
+}
+.ml-9 {
+  margin-left: 6rem;
+}
+.ml-10 {
+  margin-left: 7.6rem;
+}
 
 /* Margin right */
 .mr-md {
   margin-right: 2rem;
 }
+
+/* Custom padding definations */
+.py-md {
+  padding: 2rem 0rem 2rem 0rem;
+}
+
 /* Logo */
 .logo {
   padding: 2rem 2rem 2rem 5rem;
@@ -71,16 +107,27 @@ body {
 
 .font-lg {
   font-size: 4.3vw !important;
-  font-family: montserrat-semi-bold;
+  font-family: montserrat-bold;
 }
 
 .font-md-bold {
   font-family: montserrat-bold !important;
   font-size: 18px !important;
 }
+
 .font-md-bold-inter {
   font-family: inter-sans-serif-bold;
-  font-size: 18px;
+  font-size: 24px;
+}
+
+.font-bold-inter {
+  font-family: inter-sans-serif-bold;
+  font-size: 20px;
+}
+
+.font-x-md-bold-inter {
+  font-family: inter-sans-serif-bold;
+  font-size: 28px;
 }
 
 .font-sm-bold {
@@ -96,8 +143,29 @@ body {
   font-family: inter-sans-serif;
   font-size: 48px;
 }
+
+.font-x-md-inter {
+  font-family: inter-sans-serif;
+  font-size: 28px;
+}
+
+.font-x-md-inter-light {
+  font-family: inter-sans-serif-light;
+  font-size: 28px;
+  line-height: 1.5em;
+}
 .font-md-inter {
   font-family: inter-sans-serif;
+  font-size: 20px;
+}
+
+.font-inter {
+  font-family: inter-sans-serif;
+  font-size: 18px;
+}
+
+.font-mono {
+  font-family: pt-mono;
   font-size: 20px;
 }
 
@@ -127,18 +195,35 @@ body {
   font-size: 28px;
 }
 .section-paragraphs p {
-  line-height: 1.9rem;
+  line-height: 1.5em;
   font-size: 20px;
   font-family: inter-sans-serif;
 }
-.second-section-paragraph-bold {
-  line-height: 1.5rem;
+
+.line-spacing-md {
+  line-height: 2.5rem;
 }
 /* Width */
 .w-md {
   width: 72%;
 }
 
+.w-x-md {
+  width: 78%;
+}
+
+.w-sm {
+  width: 62%;
+}
+
+.w-lg {
+  width: 85%;
+}
+
+/* Text */
+.text-brown {
+  color: #835234;
+}
 /* Miscellaneous */
 .kbd-ltr-k {
   padding: 0.2em 0.4em 0.2em 0.4em;

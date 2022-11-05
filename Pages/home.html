@@ -111,14 +111,15 @@
         <!-- Header Body -->
         <section class="container mt-5">
             <div class="d-flex justify-content-center">
-                <h1 class="text-center font-lg mb-n1">THE ULTIMATE SERVER</h1>
+                <h1 class="text-center font-lg mb-n1 mt-lg">THE ULTIMATE SERVER</h1>
             </div>
             <div class="d-flex justify-content-center">
-                <p class="header-paragraph text-center">Caddy 2 is a powerful, enterprise-ready, <strong>open
+                <p class="font-x-md-inter text-center w-lg">Caddy 2 is a powerful, enterprise-ready, <strong
+                        class="font-x-md-bold-inter">open
                         source
                         web
                         server</strong> with
-                    <strong>automatic HTTPS </strong> written in Go
+                    <strong class="font-x-md-bold-inter">automatic HTTPS </strong> written in Go
                 </p>
             </div>
             <div class="d-flex justify-content-center mt-md mb-5">
@@ -149,13 +150,13 @@
     </header>
 
     <main class="container-fluid no-gutters">
-        <section class="first-section-background">
+        <section class="first-section bg-light">
             <div class="d-flex">
                 <div class="w-50 ml-md">
                     <div>
-                        <h1 class="font-md-regular mt-lg">Fewer moving parts</h1>
+                        <h1 class="font-md-regular mt-x-md">Fewer moving parts</h1>
                     </div>
-                    <div class="section-paragraphs mt-n5">
+                    <div class="section-paragraphs mt-n5 w-lg">
                         <p>Caddy simplifies your infrastructure. It takes care of TLS certificate renewals, OSCP
                             stapling, static file serving, reverse proxying, Kubernates ingress and more</p>
 
@@ -169,7 +170,7 @@
                     </div>
                 </div>
                 <div class="w-50 mt-x-md">
-                    <img src="/Resources/Assets/moving-parts.svg" class="img-fluid resized-x-lg mt-5 ml-5">
+                    <img src="/Resources/Assets/moving-parts.svg" class="img-fluid resized-x-lg mt-md ml-5">
                 </div>
             </div>
 
@@ -185,16 +186,17 @@
                         <h1 class="font-md-regular">Best-in-class security</h1>
                     </div>
                     <div>
-                        <p class="font-md-bold-inter w-md second-section-paragraph-bold">Caddy is the only web server to
+                        <p class="font-md-bold-inter w-md">Caddy is the only web server to
                             use HTTPS automatically and
                             by
                             default.</p>
                     </div>
-                    <div class="section-paragraphs w-md">
-                        <p>Caddy obtains and renews TLS certificates for your sites automatically. It even staples OCSP
+                    <div class="section-paragraphs">
+                        <p class="w-md">Caddy obtains and renews TLS certificates for your sites automatically. It even
+                            staples OCSP
                             responses. Its novel certificate management features are the most mature and reliable in its
                             class. </p>
-                        <p>
+                        <p class="w-md">
                             Written in Go, Caddy offers greater memory safety than servers written in C. A hardened TLS
                             stack powered by the Go standard library serves a significant portion of all Internet
                             traffic.
@@ -206,7 +208,7 @@
                 </div>
             </div>
         </section>
-        <section class="third-section-background mt-md">
+        <section class="third-section bg-light mt-x-md">
             <div class="d-flex">
                 <div class="w-50">
                     <div class="mt-x-md ml-md">
@@ -216,7 +218,7 @@
                         </div>
                         <div class="section-paragraphs">
                             <p>
-                                <span class="text-info">Arden Labs</span> is the trusted partner of Caddy web server
+                                <span class="text-primary">Arden Labs</span> is the trusted partner of Caddy web server
                                 open
                                 source project, providing
                                 enterprise-grade support to our clients
@@ -232,7 +234,299 @@
                 </div>
                 <div class="w-50">
                     <div class="ml-md">
-                        <img src="/Resources/Assets/ardan-labs.svg" class="img-fluid resized-x-md mt-x-md ml-md">
+                        <img src="/Resources/Assets/ardan-labs.svg" class="img-fluid resized-x-md mt-x-md ml-md mb-md">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fourth-section mt-md">
+            <div class="d-flex">
+                <div class="w-50">
+                    <div class="ml-md mt-md">
+                        <img class="img-fluid resized-lg ml-5 mt-md" src="/Resources/Assets/proxy-file-server.svg">
+                    </div>
+                </div>
+                <div class="w-50">
+                    <div class="mt-md ml-md">
+                        <div>
+                            <h1 class="font-md-regular">File server and proxy</h1>
+                        </div>
+                        <div class="section-paragraphs w-75">
+                            <p>
+                                Caddy is both a flexible, efficient static file server and a powerful scalable reverse
+                                proxy.
+                            </p>
+                            <p>
+                                Use it to serve your static site with compression, template evauation, Markdown
+                                rendering, and more.
+                            </p>
+                            <p>Or use dynamic reverse proxy to any number of backends complete with active and passive
+                                health checks, load balancing, circuit breaking, caching, and more</p>
+                        </div>
+                        <div class="mt-md mb-md">
+                            <a href="" class="btn btn-lg btn-primary">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fifth-section bg-light mt-md">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <h1 class="font-lg mt-x-lg">1-LINERS</h1>
+                </div>
+                <div class="d-flex justify-content-center mt-n3">
+                    <h2 class="mt-n5 font-x-md-inter-light text-center w-x-md line-spacing-md">
+                        These commands are <strong class="font-x-md-bold-inter">production-ready</strong>. When given a
+                        domain
+                        name,
+                        Caddy will use <strong class="font-x-md-bold-inter">HTTPS by default</strong> which provisions
+                        and renews
+                        certificates for you.
+                        *
+                    </h2>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p class="font-inter">* Requires domain's public A/AAAA DNS records pointed at your machine
+                    </p>
+                </div>
+            </div>
+            <div class="container-fluid no-gutters">
+                <div class="ml-md mt-md-lg">
+                    <h2 class="font-md-bold-inter">Quick, local file server</h2>
+                </div>
+                <div class="bg-dark">
+                    <p class="text-light ml-md py-md font-mono">$ caddy file-server</p>
+                </div>
+                <div class="ml-md mt-md-lg">
+                    <h2 class="font-md-bold-inter">Public file server over HTTPS</h2>
+                </div>
+                <div class="bg-dark">
+                    <p class="text-light ml-md py-md font-mono">$ caddy file-server --domain example.com</p>
+                </div>
+                <div class="ml-md mt-md-lg">
+                    <h2 class="font-md-bold-inter">HTTPS reverse proxy</h2>
+                </div>
+                <div class="bg-dark">
+                    <p class="text-light ml-md py-md font-mono">$ caddy reverse-proxy --from example.com --to
+                        localhost:9000</p>
+                </div>
+                <div class="ml-md mt-md-lg">
+                    <h2 class="font-md-bold-inter">Run server with Caddyfile in working directory (if present)</h2>
+                </div>
+                <div class="bg-dark">
+                    <p class="text-light ml-md py-md font-mono">$ caddy run</p>
+                </div>
+                <div class="d-flex justify-content-center mt-x-md">
+                    <div class="mb-md">
+                        <a class="btn btn-lg btn-primary font-bold-inter" href="">DOWNLOAD</a>
+                    </div>
+                    <div class="mb-md">
+                        <a class="btn btn-lg btn-info font-bold-inter ml-5" href="">CLI DOCS</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sixth-section mt-x-md">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <h1 class="font-lg">THE CADDYFILE</h1>
+                </div>
+                <div class="d-flex justify-content-center mt-n5">
+                    <h2 class="font-x-md-inter-light w-x-md text-center mt-n5">A config file that is <strong
+                            class="font-x-md-bold-inter">human-readable</strong> and <strong
+                            class="font-x-md-bold-inter">easy
+                            to write</strong> by hand.
+                        Perfect for most common and manual configurations</h2>
+                </div>
+            </div>
+            <div class="container-fluid no-gutters">
+                <div class="code-body">
+                    <div class="mt-md-lg">
+                        <h2 class="font-md-bold-inter ml-md">Local file server with template evaluation</h2>
+                    </div>
+                    <div class="bg-info p-5 ml-n5">
+                        <p class="text-danger ml-md font-mono"><b>localhost</b></p>
+                        <p class="text-info mt-5 ml-md font-mono"><b>templates</b></p>
+                        <p class="text-info mt-n4 ml-md font-mono"><b>file_server</b></p>
+                    </div>
+                </div>
+
+                <div class="code-body">
+                    <div class="mt-md-lg">
+                        <h2 class="font-md-bold-inter ml-md">HTTPS reverse proxy with custom load balancing and active
+                            health checks</h2>
+                    </div>
+                    <div class="bg-info p-5 ml-n5">
+                        <p class="ml-md font-mono"><b class="text-danger ">example.com</b> <span
+                                class="text-secondary">#
+                                Your site's domain name</span></p>
+                        <p class="ml-md font-mono"> <b class="text-info">reverse_proxy</b> <span
+                                class="text-success">10.0.0.1:9000
+                                10.0.0.2:9000 10.0.0.3:9000</span> {</p>
+                        <div class="font-mono ml-md mt-n4">
+                            <p class="ml-sm"><span class="text-brown">lb_policy</span>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span>random_choose 2</span>
+                            </p>
+                            <p class="ml-sm mt-n4"><span
+                                    class="text-brown">health_path</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span>/ok</span>
+                            </p>
+                            <p class="ml-sm mt-n4"><span class="text-brown">health_interval</span>&nbsp;&nbsp;
+                                <span>10s</span>
+                            </p>
+                        </div>
+                        <p class="ml-md font-mono"> }</p>
+                    </div>
+                </div>
+
+                <div class="code-body">
+                    <div class="mt-md-lg">
+                        <h2 class="font-md-bold-inter ml-md">HTTPS site with clean URLs, reverse proxying, compression,
+                            and templates</h2>
+                    </div>
+                    <div class="bg-info p-5 ml-n5">
+                        <p class="text-danger ml-md font-mono"><b>example.com</b></p>
+                        <p class="ml-md font-mono mt-4"><span class="text-secondary"># Templates give static sites some
+                                dynamic features</span> <br>
+                            <b class="text-info">templates</b>
+                        </p>
+                        <p class="ml-md font-mono mt-4"><span class="text-secondary"># Compress responses according to
+                                Accept-Encoding headers</span> <br>
+                            <b class="text-info">encode</b> <span class="text-success">gzip zstd</span>
+                        </p>
+
+                        <p class="ml-md font-mono mt-4"><span class="text-secondary"># Make HTML file extension
+                                optional</span> <br>
+                            <b class="text-info">try_files</b> <span class="text-success">{path} .html
+                                {path}</span>
+                        </p>
+
+                        <p class="ml-md font-mono mt-4"><span class="text-secondary"># Send API requests to
+                                backend</span>
+                            <br>
+                            <b class="text-info">reverse_proxy</b> <span class="text-success">/api/*
+                                localhost:9005</span>
+                        </p>
+
+                        <p class="ml-md font-mono mt-4"><span class="text-secondary"># Serve everything else from the
+                                file system</span> <br>
+                            <b class="text-info">file_server</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container mb-md">
+                <div class="d-flex justify-content-center mt-x-md">
+                    <div>
+                        <a class="btn btn-lg btn-primary font-bold-inter">DOWNLOAD</a>
+                    </div>
+                    <div class="ml-5">
+                        <a class="btn btn-lg btn-info font-bold-inter">CADDYFILE DOCS</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="seventh-section bg-light">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <h2 class="font-lg mt-x-lg">CONFIG API</h2>
+                </div>
+                <div class="d-flex justify-content-center mt-n5">
+                    <h2 class="font-x-md-inter-light mt-n5 w-75 text-center">Caddy is dynamically configurable with a <b
+                            class="font-x-md-bold-inter">RESTful
+                            JSON API.</b> Config updates are <b class="font-x-md-bold-inter">graceful</b>, even on
+                        windows</h2>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <h2 class="font-x-md-inter-light text-center w-lg">Using JSON gives you <b
+                            class="font-x-md-bold-inter">absolute
+                            control</b> over the edge of your compute platform,
+                        and is perfect for <b class="font-x-md-bold-inter">dynamic</b> and <b
+                            class="font-x-md-bold-inter">automated</b>
+                        deployments</h2>
+                </div>
+            </div>
+            <div class="container-fluid no-gutters">
+                <div class="mt-md">
+                    <h2 class="font-md-bold-inter ml-md">Set a new configuration</h1>
+                </div>
+                <div class="bg-grey mt-5 py-md">
+                    <div class="font-mono">
+                        <p class="mt-5 ml-md"><b>POST/config/</b></p>
+                        <div class="mt-3 ml-md">
+                            <p class="">{</p>
+                            <div>
+                                <p>"apps": {</p>
+                            </div>
+                            <div class="ml-6">
+                                <p class="mt-n3">"http": {</p>
+                            </div>
+                            <div class="ml-7">
+                                <p class="mt-n3">"servers": {</p>
+                            </div>
+                            <div class="ml-8">
+                                <p class="mt-n3">"example": {</p>
+                            </div>
+                            <div class="ml-9">
+                                <p class="mt-n3">"listen": ["127.0.0.1:2080"],</p>
+                            </div>
+                            <div class="ml-9">
+                                <p class="mt-n3">"routes": [{</p>
+                                <div class="ml-2">
+                                    <p class="mt-n3 ml-5">"@id": "demo",</p>
+                                    <div class="ml-5 mt-n3">
+                                        <p>"handle": [{</p>
+                                        <p class="ml-5 mt-n3">"handler": file_server, </p>
+                                        <p class="ml-5 mt-n3">"browse": {}, </p>
+                                        <p class="mt-n3">}], </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ml-8">
+                                <p class="mt-n3 ml-5">}], </p>
+                            </div>
+                            <div class="ml-6">
+                                <p class="mt-n3 ml-7">} </p>
+                                <p class="mt-n3 ml-6">} </p>
+                                <p class="mt-n3 ml-2">} </p>
+                                <p class="mt-n3 ml-n2">} </p>
+                                <p class="mt-n3 ml-n5">} </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-md">
+                    <h2 class="font-md-bold-inter ml-md">Export current configuration</h1>
+                </div>
+                <div class="bg-grey mt-5 p-3">
+                    <p class="font-mono ml-md"><b>GET /config/</b></p>
+                </div>
+                <div class="mt-md">
+                    <h2 class="font-md-bold-inter ml-md">Change only a specific part of the config</h1>
+                </div>
+                <div class="bg-grey mt-5 p-3">
+                    <p class="font-mono ml-md"><b>PUT /id/demo/handle/0</b></p>
+                    <p class="font-mono ml-md">{"handler": "templates"}</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="d-flex justify-content-center mt-x-md">
+                    <h2 class="text-center font-x-md-inter-light w-lg">All changes made through the API are persisted to
+                        disk
+                        so
+                        they can continue to be used after restarts </h2>
+                </div>
+                <div class="d-flex justify-content-center mt-md">
+                    <div>
+                        <a class="btn btn-lg btn-primary font-md-bold">DOWNLOAD</a>
+                    </div>
+                    <div>
+                        <a class="btn btn-lg btn-info font-md-bold ml-5">API DOCS</a>
+                    </div>
+                    <div>
+                        <a class="btn btn-lg btn-info font-md-bold ml-5">TUTORIALS</a>
                     </div>
                 </div>
             </div>
