@@ -15,9 +15,14 @@
   max-width: 20px;
 }
 
+.resized-lg {
+  max-width: 550px;
+}
+
 .resized-x-lg {
   max-width: 600px;
 }
+
 .resized-x-md {
   max-width: 400px;
 }

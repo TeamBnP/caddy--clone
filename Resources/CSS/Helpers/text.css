@@ -6,6 +6,30 @@
   text-align: left !important;
 }
 
-.text-info {
+.text-justify {
+  text-align: justify;
+}
+
+.text-primary {
   color: #0694f1;
+}
+
+.text-light {
+  color: rgb(245, 245, 245);
+}
+
+.text-danger {
+  color: #d22400;
+}
+
+.text-secondary {
+  color: #7795a4;
+}
+
+.text-success {
+  color: #008000;
+}
+
+.text-info {
+  color: #006c96;
 }
