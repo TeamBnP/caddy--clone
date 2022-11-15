@@ -1,0 +1,71 @@
+/* body {
+  margin: 0;
+  padding: 0;
+} */
+
+.test-container {
+  border: 1px solid black;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+/* Equal width columns */
+.col-md-6 {
+  height: auto;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: 1px solid black;
+  flex: 1 1 43.5%;
+}
+
+.col-3 {
+  height: auto;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: 1px solid black;
+  flex: 1 1 1.39995%;
+}
+
+.col-4 {
+  height: auto;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: 1px solid black;
+  flex: 1 1 23.5%;
+}
+
+.col-6 {
+  height: auto;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: 1px solid black;
+  flex: 1 1 33.333333333336%;
+}
+
+.col-12 {
+  height: auto;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: 1px solid black;
+  flex: 1 1 50%;
+}
+
+.col-1 {
+  height: auto;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: 1px solid black;
+  flex: 1 1 0.5%;
+}
+
+.row {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  /* Flex wrap attribute is applied to the root container */
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row; /*Applied to the parent container element */
+}
